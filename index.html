@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>URL Information</title>
+<style>
+.email2
+{
+	width:360px;
+	margin: 50px auto;
+	font-family: cambria,"Hoefler Text","Liberation serif",Times,"Times New Roman",serif;
+	color:#006;
+	border-radius:10px;
+	border: 2px solid #000;
+	margin-top:70px;
+	padding:10px 40px 25px;
+}
+input[type=text]
+{
+	width:99%;
+	padding:10px;
+	margin-top:8px;
+	border:1px solid #cc;
+	padding-left:5px;
+	font-size:16px;
+	font-family:cambria,"Hoefler Text","Liberation Serif",Times,"Times New Roman",serif;
+}
+
+input[type=submit]
+{
+	width:100%;
+	background-color:#009;
+	color:#fff;
+	border:2px solid #06F;
+	padding:10px;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+</style>
+</head>
+
+<body>
+<div class="email2">  
+
+<!--Heading of the GUI-->                                        
+<h1 align="center">Screenshot Of The Browser</h1>       
+<hr/>
+
+<!--Refer to the screen.php to capture and save the screenshot of any URL -->
+<form action="screen.php" method="post" style="text-align:center;">       
+
+<!--Enter any URL-->   
+<input type="text" placeholder="Enter URL or Domain Name" name="url"><br/><br/> 
+
+<!--press button to capture and save the image-->      
+<input type="submit" name="submit" value="CAPTURE & SAVE" />            
+</form>
+</div>
+</body>
+</html>
